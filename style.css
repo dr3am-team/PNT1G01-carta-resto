@@ -81,7 +81,7 @@ html {
   box-shadow: 5px 5px 30px rgba(68, 68, 68, 0.35);
 }
 
-.footer {
+#restaurant-menu .footer {
   background-color: black;
   color: white;
   position: absolute;
@@ -94,7 +94,7 @@ html {
   padding: 10px;
 }
 
-.footer i {
+#restaurant-menu .footer i {
   margin: 0 20px;
   font-size: 25px;
   cursor: pointer;

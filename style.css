@@ -1,0 +1,75 @@
+body,
+html {
+  font-family: "Open Sans", serif;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Menu Section */
+#restaurant-menu {
+  padding: 100px 0 60px 0;
+}
+#restaurant-menu img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 15px 0 #a7c44c;
+  object-fit: cover;
+}
+
+#restaurant-menu .menu-section {
+  margin: 0 20px 80px;
+}
+
+#restaurant-menu .menu-section-title {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 38px;
+  display: block;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#restaurant-menu .menu-item-name {
+  font-weight: 400;
+  font-size: 35px;
+  color: #444;
+  margin-bottom: 10px;
+  letter-spacing: 0.6px;
+}
+
+#restaurant-menu .menu-item-description {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+
+#restaurant-menu .menu-item-price {
+  font-size: 22px;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+#restaurant-menu .container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#restaurant-menu .container.impar {
+  margin-right: 3vw;
+}
+
+#restaurant-menu .container.par {
+  margin-left: 30px;
+}
+
+#restaurant-menu .container.text-center {
+  border: solid 1px;
+  box-shadow: 5px 5px 30px #444;
+}

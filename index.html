@@ -22,13 +22,34 @@
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="img/icono.png" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Carta restó - G01</title>
   </head>
+
+  <header>
+    <img class="logo" src="img/logo.png" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="#cremas">Cremas</a></li>
+        <li><a href="#frutales">Frutales</a></li>
+        <li><a href="#especiales">Especiales</a></li>
+        <li><a href="#veganos">Veganos</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#contacto"><button>Contacto</button></a>
+  </header>
+  
+
   <body>
     <!-- MENÚ -->
     <main id="restaurant-menu">
       <h2 class="menu-section-title">Heladería</h2>
+
+      <h3 id="cremas" class="menu-section-subtitle">Cremas</h3>
       <article class="container par">
         <div class="container text-center">
           <div class="row align-items-center">
@@ -73,6 +94,8 @@
         </div>
       </article>
 
+      <h3 id="frutales" class="menu-section-subtitle">Frutales</h3>
+
       <article class="container par">
         <div class="container text-center">
           <div class="row align-items-center">
@@ -95,6 +118,8 @@
         </div>
       </article>
 
+      <h3 id="especiales" class="menu-section-subtitle">Especiales</h3>
+
       <article class="container impar">
         <div class="container text-center">
           <div class="row align-items-center">
@@ -116,7 +141,10 @@
           </div>
         </div>
       </article>
-      <footer class="footer">
+
+      <h3 id="veganos" class="menu-section-subtitle">Veganos</h3>
+
+      <footer id="contacto" class="footer">
         <p>Encontranos en nuestras redes sociales</p>
         <div>
           <i class="fa-brands fa-facebook"></i>

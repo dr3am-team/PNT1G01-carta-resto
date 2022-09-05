@@ -60,7 +60,7 @@ header {
 
 header .logo {
   cursor: pointer;
-  filter: drop-shadow(1px 1px 5px rgb(105, 105, 105));
+  filter: drop-shadow(1px 1px 3px rgb(105, 105, 105));
 }
 
 header nav ul li {
@@ -76,7 +76,7 @@ header nav ul li :hover {
   color: rgba(0, 136, 169, 1);
 }
 
-button {
+header .cta {
   color: #24252a;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
@@ -84,10 +84,10 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.2 ease 0s;
+  border: 1px solid transparent;
 }
 
-button:hover {
+header .cta:hover {
   background-color: rgba(0, 136, 169, 0);
   border: 1px solid rgba(0, 136, 169, 1);
   color: rgba(0, 136, 169, 1);

@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;500&display=swap");
 
-* {
+*,
+p,
+ul,
+li {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -22,17 +25,19 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
 }
 
-li, a {
-  float: left;
-  font-family: "Montserrat", sans-serif;
+li,
+a {
   font-weight: 500;
   font-size: 16px;
   color: #24252a;
   text-decoration: none;
-  background-color: white;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 li a {
@@ -54,35 +59,39 @@ header {
   padding: 30px 10%;
 }
 
-.logo {
+header .logo {
   cursor: pointer;
+  filter: drop-shadow(1px 1px 5px rgb(105, 105, 105));
 }
 
-.nav__links li {
+header nav ul li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav__links li a {
-  transition: all 0.3s ease 0s;
+header nav ul li a {
+  transition: all 0.2s ease-in-out;
 }
 
-.nav__links li a:hover {
-  color: aqua;
+header nav ul li :hover {
+  color: rgba(0, 136, 169, 1);
 }
 
 button {
   color: #24252a;
   padding: 9px 25px;
-  background-color: rgba(0,136,169,1);
+  background-color: rgba(0, 136, 169, 1);
+  color: white;
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.3 ease 0s;
+  transition: all 0.2 ease 0s;
 }
 
 button:hover {
-  background-color: rgba(0,136,169,0);
+  background-color: rgba(0, 136, 169, 0);
+  border: 1px solid rgba(0, 136, 169, 1);
+  color: rgba(0, 136, 169, 1);
 }
 
 /* Menu Section */
@@ -91,9 +100,9 @@ button:hover {
   position: relative;
 }
 #restaurant-menu img {
-  width: 250px;
-  height: 250px;
-  box-shadow: 15px 0 #a7c44c;
+  width: 150px;
+  height: 150px;
+  /* box-shadow: 15px 0 #a7c44c; */
   object-fit: cover;
 }
 
@@ -118,16 +127,33 @@ button:hover {
 #restaurant-menu .menu-section-subtitle {
   font-family: "Anek Telugu", sans-serif;
   text-transform: uppercase;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 15px;
   font-size: 30px;
-  display: block;
   font-weight: 300;
   color: #444;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   text-align: left;
   letter-spacing: 1px;
+  border-bottom: 1px dashed #444;
+  margin: 0px 50px;
+}
+
+.item-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.item-container .info-container {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.info-container .price {
+  font-weight: bold;
 }
 
 #restaurant-menu .menu-item-name {

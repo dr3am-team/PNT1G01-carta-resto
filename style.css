@@ -16,8 +16,6 @@ html {
   color: #777;
   font-weight: 400;
   scroll-behavior: smooth;
-  /* width: 100% !important;
-  height: 100% !important; */
 }
 
 /* Navbar */
@@ -112,7 +110,6 @@ button:hover {
 }
 
 #restaurant-menu .menu-section-title {
-  font-family: "Anek Telugu", sans-serif;
   text-transform: uppercase;
   position: relative;
   margin-top: 10px;
@@ -131,7 +128,7 @@ button:hover {
   font-size: 30px;
   font-weight: 300;
   color: #444;
-  /* padding-left: 50px; */
+
   text-align: left;
   letter-spacing: 1px;
   border-bottom: 1px dashed #444;
@@ -157,44 +154,6 @@ button:hover {
 
 .info-container .price {
   font-weight: bold;
-}
-
-#restaurant-menu .menu-item-name {
-  font-weight: 400;
-  font-size: 35px;
-  color: #444;
-  margin-bottom: 10px;
-  letter-spacing: 0.6px;
-}
-
-#restaurant-menu .menu-item-description {
-  font-size: 20px;
-  letter-spacing: 0.3px;
-}
-
-#restaurant-menu .menu-item-price {
-  font-size: 22px;
-  font-weight: 600;
-  color: #555;
-  letter-spacing: 1px;
-}
-
-#restaurant-menu .container {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-
-#restaurant-menu .container.impar {
-  margin-right: 3vw;
-}
-
-#restaurant-menu .container.par {
-  margin-left: 30px;
-}
-
-#restaurant-menu .container.text-center {
-  border: solid 1px;
-  box-shadow: 5px 5px 30px rgba(68, 68, 68, 0.35);
 }
 
 #restaurant-menu .footer {

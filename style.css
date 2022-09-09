@@ -69,11 +69,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-  transition: all 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 header nav ul li :hover {
   color: rgba(0, 136, 169, 1);
+  font-weight: bold;
 }
 
 header .cta {
@@ -144,6 +145,10 @@ header .cta:hover {
   margin: 20px 0px;
 }
 
+.item-container img {
+  object-fit: cover;
+}
+
 .item-container .info-container {
   margin-left: 25px;
   display: flex;
@@ -157,20 +162,14 @@ header .cta:hover {
 }
 
 #restaurant-menu .footer {
-  background-color: rgb(92, 92, 92);
+  background-color: rgb(0, 0, 0);
   color: white;
-  /* position: absolute; */
-  /* bottom: 0; */
   width: 100%;
   display: flex;
+  flex-direction: column;
   padding: 10px 0px;
   justify-content: space-evenly;
   align-items: center;
-}
-
-#restaurant-menu .footer .social-info {
-  display: flex;
-  flex-direction: column;
 }
 
 #restaurant-menu .footer p {

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;500&display=swap");
 
 *,
@@ -66,6 +66,10 @@ header .logo {
 header nav ul li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.footer a {
+  color: white;
 }
 
 header nav ul li a {

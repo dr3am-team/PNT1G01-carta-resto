@@ -190,3 +190,7 @@ header .cta:hover {
 #restaurant-menu .footer i:hover {
   color: rgba(0, 136, 169, 1);
 }
+
+.input-form{
+  text-align: center;
+}

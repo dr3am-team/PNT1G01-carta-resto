@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;500&display=swap");
 
 *,
@@ -189,4 +189,41 @@ header .cta:hover {
 
 #restaurant-menu .footer i:hover {
   color: rgba(0, 136, 169, 1);
+}
+
+/* formulario */
+
+#form1 {
+  font-family: "Anek Telugu", sans-serif;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid blue;
+  padding: 10px;
+}
+.caja-campo {
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+}
+.campo {
+  position: relative;
+}
+.form-title {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+#form1 label {
+  font-size: 25px;
+}
+#submitBtn {
+  background-color: darkslateblue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
 }

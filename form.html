@@ -6,6 +6,13 @@
     <meta name="description" content="ponete en contacto" />
     <link rel="shortcut icon" href="img/icono.png" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body onload="document.form1.nombre.focus()">
     <div class="form1-box">
@@ -54,12 +61,30 @@
         <input
           type="submit"
           name="submit"
-          value="Submit"
+          value="Enviar"
           id="submitBtn"
           onclick=" validarEntradas(document.form1.nombre, document.form1.mail, document.form1.password, document.form1.telefono)"
         />
       </form>
+      <footer id="contacto" class="footer">
+        <p>Encontranos en nuestras redes sociales</p>
+        <div>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://tiktok.com" target="_blank"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </div>
+      </footer>
     </div>
+
     <script src="./scripts/validation.js"></script>
   </body>
 </html>
